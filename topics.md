@@ -1,13 +1,39 @@
-[x] - Abstract
-    [x] - Paragraph 1
-        [x] - Brief intro
-        [x] - Why is it important
-        [x] - why it is hard
-        [x] - current state of art
-        [x] - disucss about gpu's, cpu clusters and why they are expensive
-    [x] - Paragraph 2
-        [x] - what is this work
-        [x] - discuss about rationale behind multi-core CPU
-        [x] - why parallelization did work with parallelization algorithm
-        [x] - discuss about implemenation in julia and results (compare with gpu)
-[] - Introduction
+### Topics
+
+ - [x] - Abstract
+     - [x] - Paragraph 1
+         - [x] - Brief intro
+         - [x] - Why is it important
+         - [x] - why it is hard
+         - [x] - current state of art
+         - [x] - disucss about gpu's, cpu clusters and why they are expensive
+    - [x] - Paragraph 2
+        - [x] - what is this work
+        - [x] - discuss about rationale behind multi-core CPU
+        - [x] - why parallelization did work with parallelization algorithm
+        - [x] - discuss about implemenation in julia and results (compare with gpu)
+- [] - Introduction
+    - [x] - About the DAR system, optimization function
+    - [] - Why greedy wont work - local optima vs global optima
+    - [] - Brief description about Meta Heuristics, and their role in optimization problems
+    - [] - Brief description about Granular Tabu Search and its various applications
+- [] - Formulation
+    - [] - More about optimization function and how it is calculated
+- [] - More Tabu Search
+    - [] - Granular Tabu Search
+    - [] - Initial solution
+    - [] - Search Space
+    - [] - Moves, picking best move
+    - [] - Stop Criteria, Intensification and diversification
+- [] - Issues with assignment problem
+    - [] - How it is defined and why it cannot be parallelized
+- [] - Issues with GPU
+- [] - Modelling Tabu Search for multi-core
+    - [] - Algorithm
+    - [] - how it is parallelized
+    - [] - Kernels
+- [] - Implementation
+    - [] - About each kernel
+- [] - Results
+    - [] - Graphs
+    - [] - compare with GPU
